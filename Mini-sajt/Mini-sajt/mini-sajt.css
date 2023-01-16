@@ -1,0 +1,250 @@
+
+h1{
+    text-align: center;
+
+}
+
+header{
+    background-image: url('NYC-banner.jpg');
+    height: 30vh;
+    margin-left: 0;
+}
+
+.head{
+    position: relative;
+    top: 75px;
+    font-size: 500%;
+    margin: 0%;
+    color: goldenrod
+
+}
+
+body{
+    background-color: goldenrod;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100vw;
+}
+
+.searchbar{
+    background-color: lightgrey;
+    border: solid 1px black;
+    height: 3vh;
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+}
+
+.active{
+    color: aqua;
+}
+#active{
+    color: aqua;
+}
+.log-in-page{
+    color: goldenrod;
+    position: absolute;
+    right: 3vw;
+}
+
+.log-in-form{
+    background-color: rgb(98, 96, 96);
+    width: 20vw; 
+    height: 30vh;
+    position: relative;
+    left: 40vw;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.create-account-form{
+    background-color: rgb(98, 96, 96);
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color: goldenrod;
+    position: relative;
+    left: 35vw;
+    width: 30vw;
+}
+
+.account-form-text{
+    text-align: center;
+    color: rgb(7, 7, 81);
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: solid;
+    border-color: goldenrod;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.TopBox{
+  height: 10vh;
+  width: 98.5vw;
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2.5em;
+  border: solid;
+  border-color: goldenrod;
+  background-color: rgb(7, 7, 81);
+  color: goldenrod;
+}
+
+#TopBox-smaller-text{
+    font-size: 2em;
+}
+
+
+
+.block-parent{
+    padding: 2rem;
+    height: 100vh;
+}
+
+.block{
+    display: inline-block;
+    padding: 1rem;
+}
+
+#block-right{
+    width: 30vw;
+    position: absolute;
+    right: 5vw;
+}
+
+#block-left{
+    top: 2px;
+    width: 45vw;
+    font-size: 1.5em;
+    color: rgb(7, 7, 81);
+    margin-left: 3vw;
+}
+
+#block-bottom{
+    position: absolute;
+    margin-left: 3vw;
+    font-size: 1.5em;
+    color: rgb(7, 7, 81);
+    margin-top: 20vh;
+    width: 45vw;
+}
+
+
+.empire-state-plate{
+    width: 60%;
+    height: 60%;
+}
+.empire-state{
+    font-size: 5em;
+    color: rgb(7, 7, 81);
+    border-top: 5px solid rgb(7, 7, 81);
+    text-align: center;
+}
+
+.nycphoto{
+    width: 100%;
+    height: 100%;
+}
+
+.facts-history-link{
+    font-size: 3em;
+    color: rgb(7, 7, 81);
+    margin-left: 5vw;
+}
+
+.history-text{
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.footer-list{
+    background-color: rgb(7, 7, 81);
+    border: 0;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.1em;
+}
+
+.footer-list{
+    float: none;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 98.55vw;
+    height: 45vh;
+    border: solid;
+    border-color: goldenrod;
+    background-color: rgb(7, 7, 81);
+    color: goldenrod;
+    overflow: hidden;
+}
+
+
+.attractions-parent{
+    padding: 2rem;
+    height: 65vh;
+    border-bottom: solid 3px rgb(7, 7, 81);
+}
+
+.attractions{
+    display: inline-block;
+    padding: 1rem;
+}
+
+#attractions-text{
+    border: 5px solid rgb(7, 7, 81);
+    top: 2px;
+    width: 45vw;
+    font-size: 1.5em;
+    margin-left: 3vw;
+}
+#attractions-photo-id{
+    border: 3px solid rgb(7, 7, 81);
+    width: 30vw;
+    position: absolute;
+    right: 5vw;
+
+}
+.attractions-photo-class{
+    width: 100%;
+    height: 100%;
+}
+
+.fa-instagram{
+    
+}
+
