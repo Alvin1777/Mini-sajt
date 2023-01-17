@@ -1,12 +1,13 @@
+@import url('https://fonts.cdnfonts.com/css/sandy-king');                
+
 
 h1{
     text-align: center;
-
 }
 
 header{
     background-image: url('NYC-banner.jpg');
-    height: 30vh;
+    height: 15em;
     margin-left: 0;
 }
 
@@ -15,8 +16,8 @@ header{
     top: 75px;
     font-size: 500%;
     margin: 0%;
-    color: goldenrod
-
+    color: goldenrod;
+    font-family: 'Sandy King', sans-serif;                                            
 }
 
 body{
@@ -46,25 +47,26 @@ body{
     color: goldenrod;
     position: absolute;
     right: 3vw;
+
 }
 
 .log-in-form{
-    background-color: rgb(98, 96, 96);
+    background-color: rgb(207, 207, 207);
     width: 20vw; 
     height: 30vh;
     position: relative;
     left: 40vw;
     text-align: center;
     color: goldenrod;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .create-account-form{
-    background-color: rgb(98, 96, 96);
+    background-color: rgb(207, 207, 207);
     text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     color: goldenrod;
     position: relative;
     left: 35vw;
@@ -75,6 +77,10 @@ body{
     text-align: center;
     color: rgb(7, 7, 81);
     font-size: 2em;
+}
+
+.account-main{
+    background-image: url('nyc-midtown.jpg');
 }
 
 ul {
@@ -100,6 +106,7 @@ li a {
 }
 
 li a:hover {
+  transition: ease-in-out 0.5s;
   background-color: #111;
 }
 
@@ -288,6 +295,9 @@ footer{
 }
 
 
+
+
+
 .shop-scrollbar{
     background-color: #333;
     overflow: auto;
@@ -297,4 +307,18 @@ footer{
     text-align: center;
     padding: 14px;
     text-decoration: none;
+}
+
+
+.shop-parent{
+    padding: 2rem;
+    height: 100vh;
+}
+
+.shop{
+    display: inline-block;
+    padding: 1rem;
+    height: 10vh;
+    width: 10vw;
+    
 }
