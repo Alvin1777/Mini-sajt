@@ -60,12 +60,6 @@ body{
 
 
 
-
-.log-in-page-main{
-    background-image: url(nyc-wallpaper.jpg);
-    background-repeat: no-repeat;
-}
-
 .log-in-page{
     color: goldenrod;
     position: absolute;
@@ -97,7 +91,7 @@ body{
 
 .account-form-text{
     text-align: center;
-    color: goldenrod;
+    color: rgb(7, 7, 81);
     font-size: 2em;
 }
 
@@ -384,12 +378,12 @@ footer{
 }
 
 
-.five-boroughs-link{
+.link-to-fact-subject{
     color: rgb(7, 7, 81);
     transition: ease-in-out 0.5s;
 }
 
-.five-boroughs-link:hover{
+.link-to-fact-subject:hover{
     color: aqua;
 }
 
@@ -404,36 +398,6 @@ footer{
 .return-page:hover{
     color: aqua;
 }
-
-
-
-.shop-scrollbar{
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-
-.shop-parent{
-    padding: 2rem;
-    height: 100vh;
-}
-
-.shop{
-    display: inline-block;
-    padding: 1rem;
-    height: 10vh;
-    width: 10vw;
-
-}
-
-
-
 
 @media screen and (max-width: 1000px) {
 
@@ -518,106 +482,74 @@ footer{
         right: 10%;
         margin-top: 450px;
     }
-
     #block-bottom{
         margin-left: 20px;
         font-size: 42px;
         margin-top: 1200px;
         width: 80%;
     }
+    .empire-state-plate{
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    .empire-state{
+        font-size: 125px;
+        border-top: 10px solid rgb(7, 7, 81);
+    }
+    footer{
+        height: 500px;
+    }
+    .footer-list{
+        padding: 5px;
+        margin: 5px;
+        font-size: 37px;
+    }
+    .facts-history-link{
+        font-size: 75px;
+        color: rgb(7, 7, 81);
+        margin-left: 5vw;
+    }
+    .history-text{
+        font-size: 55px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .attractions-parent{
+        padding: 2rem;
+        height: 1000px;
+    }
+    #attractions-text{
+        top: 2px;
+        width: 370px;
+        font-size: 30px;
+        margin-left: 8px;
+    }
+    #attractions-photo-id{
+        width: 500px;
+        right: 5px;
+        border: none;
+    }
+    .facts-parent{
+        padding: 1rem;
+        height: 1050px;
+    }
+    #facts-photo-id{
+        width: 475px;
+        right: 0;
 
-    
-.empire-state-plate{
-    margin-top: 10px;
-    width: 100%;
-    height: 100%;
-}
-
-
-.empire-state{
-    font-size: 125px;
-    border-top: 10px solid rgb(7, 7, 81);
-}
-
-footer{
-    height: 500px;
-}
-
-.footer-list{
-    padding: 5px;
-    margin: 5px;
-    font-size: 37px;
-}
-
-
-
-.facts-history-link{
-    font-size: 75px;
-    color: rgb(7, 7, 81);
-    margin-left: 5vw;
-}
-
-.history-text{
-    font-size: 55px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-
-.attractions-parent{
-    padding: 2rem;
-    height: 1000px;
-}
-
-
-#attractions-text{
-    top: 2px;
-    width: 370px;
-    font-size: 30px;
-    margin-left: 8px;
-}
-#attractions-photo-id{
-    width: 500px;
-    right: 5px;
-    border: none;
-}
-
-
-
-.facts-parent{
-    padding: 1rem;
-    height: 1050px;
-}
-
-
-#facts-photo-id{
-    width: 475px;
-    right: 0;
+    }
+    #facts-text{
+        width: 400px;
+        font-size: 32px;
+        margin-left: 5px;
+    }
+    .return-page{
+        font-size: 50px;
+        margin-left: 50px;
+    }
 
 }
-
-#facts-text{
-    width: 400px;
-    font-size: 32px;
-    margin-left: 5px;
-}
-
-
-.return-page{
-    font-size: 50px;
-    margin-left: 50px;
-}
-
-
-
-
-
-}
-
-
-
-
 
 
 @media screen and (min-width:0px ) and (max-width: 600px) {
@@ -628,10 +560,36 @@ footer{
 
     .searchbar{
         height: 70px;
-        width: 300px;
+        width: 80%;
         font-size: 50px;
     }
+    .log-in-form{
+        width: 100%;
+        left: 0;
+        height: 550px;
+        font-size: 1.9em;
+
+    }
+    .create-account-form{
+        left: 0;
+        width: 100%;
+        font-size: 1.9em;
+    }
+    input{
+        height: 80px;
+        width: 500%;
+        font-size: 12px;
+    }    
 
 
+.facts-history-link{
+    font-size: 90px;
+}
+
+.history-text{
+    font-size: 55px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
 
 }
